@@ -8,12 +8,12 @@ h1 {
     
 }
 .jumbotron {
-    background: rgb(2,0,36);
-    background: radial-gradient(circle, rgb(19, 37, 63) 0%, rgba(9,82,121,1) 51%, rgba(0,204,255,0) 91%);
+    background: rgb(107, 57, 3);
+    background: radial-gradient(circle, rgb(120, 62, 1) 0%, rgb(160, 103, 19) 51%, rgba(247, 185, 93, 0) 91%);
 }
 
 .btn {
-    color: rgba(9,82,121,1);
+    color: rgb(177, 80, 6);
 }
 .card-body {
     font-size: 20px;
