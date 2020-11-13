@@ -1,5 +1,8 @@
 body {
     font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: rgb(177, 80, 6)
+    
 }
 h1 {
     font-family: 'Spartan', sans-serif;
@@ -9,11 +12,15 @@ h1 {
 }
 .jumbotron {
     background: rgb(107, 57, 3);
-    background: radial-gradient(circle, rgb(120, 62, 1) 0%, rgb(160, 103, 19) 51%, rgba(247, 185, 93, 0) 91%);
+    background: radial-gradient(circle, rgb(154, 67, 1) 29%, rgb(174, 101, 23) 55%, rgba(247, 185, 93, 0) 91%);
 }
 
 .btn {
-    color: rgb(177, 80, 6);
+    color: white;
+    padding: 10px 30px; 
+    font-size: 20px;
+    background: rgb(177, 80, 6);
+    
 }
 .card-body {
     font-size: 20px;
