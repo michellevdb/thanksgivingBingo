@@ -23,10 +23,8 @@ var questions = [
     "Celebrates Canadian Thanksgiving",
     "Hates cranberry sauce",
     "Goes Black Friday shopping"
-]
+].sort(_=> Math.random() - 0.5);
 
-
-function newQuestion() {
-    var randomNumber = Math.floor(Math.random() * (questions.length));
-    document.getElementById('question-display').innerHTML = questions[randomNumber]
-}
+document.querySelector("#get-question").onclick = function() {
+    document.getElementById('question-display').innerHTML = questions.pop() || "End of Game!";    
+  }
